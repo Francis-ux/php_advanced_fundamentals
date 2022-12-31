@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>My triangle</title>
+    <style>
+        .traingle {
+            border-bottom: 200px solid gray;
+            border-right: 115px solid transparent;
+            border-left: 0px solid transparent;
+            width: 0;
+            margin-top: 100px;
+            margin-left: 300px;
+            position: absolute;
+        }
+
+        #first-side {
+            position: absolute;
+            margin-left: 239px;
+            margin-top: 200px;
+
+        }
+
+        .text-area {
+            width: 30%;
+            border: none;
+        }
+
+        #second-side {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 372px;
+
+        }
+
+        #third-side {
+            position: absolute;
+            margin-top: 300px;
+            margin-left: 320px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="traingle"></div>
+    <div class="all" id="first-side">
+        <input type="text" name="hyp" class="text-area" readonly>
+    </div>
+    <div class="all" id="second-side">
+        <input type="text" name="opp" class="text-area" readonly>
+    </div>
+    <div class="all" id="third-side">
+        <input type="text" name="adj" class="text-area" readonly>
+    </div>
+
+</body>
+
+</html>

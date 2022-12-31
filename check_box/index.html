@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="../Football_blog/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <style>
+        /* #main-container {
+            width: 80%;
+            height: 20px;
+            border: 1px solid gray;
+            border-radius: 10px;
+        } */
+
+        /* #move {
+            background-color: green;
+            height: 20px;
+            width: 30%;
+            animation: slide 2s linear infinite;
+        } */
+
+        #bounce {
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            background-color: yellow;
+            animation: bounce 1s linear infinite;
+        }
+
+        @keyframes bounce {
+            0% {
+                margin-top: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Worked on the input type of checkbox -->
+    <!-- <form action="working_with_check_box.php" method="post" class="mt-5">
+            <label for="name">Username:</label>
+            <input type="text" name="username" id="name">
+            <label for="mathematics">mathematics</label>
+            <input type="checkbox" name="subjects[]" value="Mathematics" id="mathematics">
+    
+            <label for="english">english</label>
+            <input type="checkbox" name="subjects[]" value="English" id="english">
+    
+            <label for="physics">physics</label>
+            <input type="checkbox" name="subjects[]" value="Physics" id="physics">
+    
+            <button type="submit">Save</button>
+        </form> -->
+
+    <div class="w-50 h-50 m-auto border p-5">
+        <form action="working_with_check_box.php" method="POST">
+            <label for="name">Username:</label>
+            <input type="text" name="username" id="name">
+            <br>
+            <p>Select at least 2 options</p>
+            <input type="checkbox" name="subject[]" value="Javascript" id="java">
+            <label for="java">Javascript</label>
+            <br>
+            <input type="checkbox" name="subject[]" value="CSS" id="css">      
+            <label for="css">CSS</label>
+            <br>
+            <input type="checkbox" name="subject[]" value="HTML" id="html">
+            <label for="html">HTML</label>
+            <br>
+            <input type="checkbox" name="subject[]" value="Progressive web app" id="app">
+            <label for="app">Progressive web app</label>
+            <br>
+            <button type="submit">Summit</button>
+        </form>
+
+    </div>
+    <!-- <div id="bounce">
+
+    </div>
+    <div id="main-container">
+        <div id="move">
+
+        </div>
+    </div> -->
+</body>
+
+</html>

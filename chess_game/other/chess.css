@@ -1,0 +1,23 @@
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+}
+
+body {
+    background-color: peru;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+}
